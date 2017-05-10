@@ -486,7 +486,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.06, 80.8, 4000, 1000 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.05, 80.35, 4000, 450 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1106,7 +1106,7 @@
 // SD Card support is disabled by default. If your controller has an SD slot,
 // you must uncomment the following option or it won't work.
 //
-//#define SDSUPPORT
+#define SDSUPPORT
 
 //
 // SD CARD: SPI SPEED
